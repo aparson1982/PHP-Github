@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>arrayDemo</title>
+</head>
+<div class="Array-Demo">
+<h2>Student Info</h2>
+  <form action="arrayDemo.php" method="post">
+    <input type="text" name="firstName" placeholder="First Name">
+    <input type="text" name="lastName" placeholder="Last Name">
+    <input type="text" name="utcid" placeholder="UTC ID">
+    <input type="text" name="currentgpa" placeholder="Current GPA">
+    <input name="Submit" type="submit" value="SUBMIT">
+    <input name="Reset" type="reset" value="RESET">
+  </form>
+</div>
+
+<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+<style type="text/css">
+.Array-Demo{
+    font-family: 'Raleway';
+    margin: 30px auto;
+	width: 300px;
+    padding: 30px;
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.Array-Demo h2{
+    background: #CEE1FF;
+    font-family: 'Raleway';
+	font-size: 18px;
+    color: #797979;
+    font-weight: 150;
+    padding: 20px;
+    
+}
+
+.Array-Demo input[type="text"],
+.Array-Demo select 
+{
+    -webkit-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 30px;
+    font: 19px 'Raleway';
+    height: 55px;
+}
+.Array-Demo textarea{
+    resize:none;
+    overflow: hidden;
+}
+.Array-Demo input[type="button"], 
+.Array-Demo input[type="submit"]{
+    background-color: #b26e63;
+    border: 0px solid #FFFFFF;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: 14px;
+    padding: 8px 18px;
+
+}
+.Array-Demo input[type="button"]:hover, 
+.Array-Demo input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #A7CCED 5%, #4D4D4D 100%);
+    background-color:#d3ab9e;
+}
+
+.Array-Demo input[type="button"], 
+.Array-Demo input[type="reset"]{
+
+    background-color: #b26e63;
+    border: 0px solid #FFFFFF;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: 14px;
+    padding: 8px 18px;
+    
+}
+.Array-Demo input[type="button"]:hover, 
+.Array-Demo input[type="reset"]:hover {
+    background:linear-gradient(to bottom, #A7CCED 5%, #4D4D4D 100%);
+    background-color:#d3ab9e;
+}
+</style>
+<body>
+</body>
+</html>
