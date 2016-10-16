@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>studentInfo</title>
+</head>
+
+<div class="Student-Info">
+<Header>
+<h2>Student Info</h2>
+</Header>
+  <form action="studentInfo.php" method="post">
+    <input type="text" name="firstName" placeholder="First Name">
+    <input type="text" name="lastName" placeholder="Last Name">
+    <input type="text" name="utcid" placeholder="UTC ID">
+    <input type="text" name="currentgpa" placeholder="Current GPA">
+    <input name="Submit" type="submit" value="SUBMIT">
+    <input name="Reset" type="reset" value="RESET">
+	
+	
+  </form>
+  
+  
+</div>
+
+<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+<style type="text/css">
+.Student-Info{
+    font-family: 'Raleway';
+    margin: 30px auto;
+	width: 300px;
+    padding: 30px;
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.Student-Info h2{
+    background: #CEE1FF;
+    font-family: 'Raleway';
+	font-size: 18px;
+    color: #797979;
+    font-weight: 150;
+    padding: 20px;
+    
+}
+
+.Student-Info input[type="text"],
+.Student-Info select 
+{
+    -webkit-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 30px;
+    font: 19px 'Raleway';
+    height: 55px;
+}
+.Student-Info textarea{
+    resize:none;
+    overflow: hidden;
+}
+.Student-Info input[type="button"], 
+.Student-Info input[type="submit"]{
+    background-color: #b26e63;
+    border: 0px solid #FFFFFF;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: 14px;
+    padding: 8px 18px;
+
+}
+.Student-Info input[type="button"]:hover, 
+.Student-Info input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #A7CCED 5%, #4D4D4D 100%);
+    background-color:#d3ab9e;
+}
+
+.Student-Info input[type="button"], 
+.Student-Info input[type="reset"]{
+
+    background-color: #b26e63;
+    border: 0px solid #FFFFFF;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: 14px;
+    padding: 8px 18px;
+    
+}
+.Student-Info input[type="button"]:hover, 
+.Student-Info input[type="reset"]:hover {
+    background:linear-gradient(to bottom, #A7CCED 5%, #4D4D4D 100%);
+    background-color:#d3ab9e;
+}
+
+
+</style>
+<body>
+</body>
+</html>
